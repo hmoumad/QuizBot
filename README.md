@@ -50,7 +50,8 @@ This repository contains scripts for extracting text from PDF files and generati
 
 - Python 3.x
 - PyPDF2
-- OCR library (e.g., Tesseract)
+- OCR library (e.g., Tesseract, opencv)
+- Langchain
 
 ## Installation
 
