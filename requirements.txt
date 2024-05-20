@@ -1,0 +1,14 @@
+langchain
+flask
+huggingface_hub
+tiktoken
+python-decouple
+Chromadb
+pypdf
+pypdf2
+sentence-transformers
+torch
+accelerateot
+pytesseract 
+opencv-python 
+pandas

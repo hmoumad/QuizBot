@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Upload File</title>
+    <style>
+        body {
+            background-color: #f0f0f0; /* Set background color */
+            display: flex;
+            justify-content: center; /* Center horizontally */
+            align-items: center; /* Center vertically */
+            height: 100vh; /* Set full height of viewport */
+        }
+
+        form {
+            background-color: #fff; /* Set form background color */
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add shadow */
+            display: flex;
+        }
+
+        h1 {
+            text-align: center;
+        }
+
+        input[type="file"] {
+            display: block;
+            margin: 10px auto; /* Center file input */
+            margin-bottom: 10px;
+        }
+
+        input[type="submit"] {
+            display: block;
+            margin: 0 auto; /* Center submit button */
+            background-color: aqua;
+            color: black;
+            border-radius: 3px;
+            border: aliceblue;
+            width: 67px;
+            height: 40px;
+            
+        }
+    </style>
+</head>
+<body>
+    <h1>Upload File</h1>
+    <form action="/upload" method="post" enctype="multipart/form-data">
+        <input type="file" name="file">
+        <input type="submit" value="Upload">
+    </form>
+</body>
+</html>
