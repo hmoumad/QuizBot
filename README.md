@@ -56,7 +56,7 @@ This repository contains scripts for extracting text from PDF files and generati
 
 1. Clone the repository:
     ```
-    git clone https://github.com/yourusername/repositoryname.git
+    git clone https://github.com/hmoumad/QuizBot
     ```
 2. Install the required libraries:
     ```
